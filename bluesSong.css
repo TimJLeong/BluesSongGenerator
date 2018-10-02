@@ -1,0 +1,101 @@
+body {
+    background-image: linear-gradient(to right, rgb(2, 2, 121), blue, rgb(59, 177, 231));
+    margin-bottom: 60px;
+   
+}
+.page {
+    background-image: url("C:/Users/timothy.leong/Pictures/Blues.jpeg");
+    background-size: cover;
+    justify-content: stretch;
+    margin: 50px auto;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 60px;
+    max-width: 80%;
+    text-align: center;
+    height: 1000px;
+    overflow: scroll;
+
+}
+setkey {
+    color: red;
+    
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+#keySelector {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+@keyframes example{
+    from {background-color:rgb(17, 55, 68)}
+    to {background-color: rgb(59, 177, 231)}
+
+}
+#display {
+    background-color: rgb(17, 55, 68);
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    opacity: 0.84;
+    text-emphasis-color: white;
+    max-width: 95%;
+    max-height: 50%;
+    align-items: stretch;
+    justify-content: stretch;
+    font-size: 300px;
+    border: 9px auto black;
+    margin: 20px;
+    box-shadow: 15px 15px rgb(158, 142, 142);
+    padding-top: 50px;
+}
+h1 {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+}
+p {
+    font-size: 20px;
+    color: red;
+}
+keyButton {
+    size: 50px;
+    margin: 40px auto;
+    color: red;
+}
+instructions {
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.button:hover {
+    color: lightpink;
+}
+chordProgression {
+    font: 50px;
+    font-weight: bold;
+    color: red;
+}
+a {
+    color:green;
+    text-align: center;
+}
+a:hover {
+    color: red;
+    text-align: center;
+}
+h3,h5 {
+    color: rgb(4, 248, 4);
+    text-align: center;
+}
+lyricGenerator {
+    padding-top: 20px;
+    opacity: 1;
+    background-color: greenyellow;
+}
